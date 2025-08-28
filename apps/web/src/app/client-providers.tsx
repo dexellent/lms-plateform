@@ -5,6 +5,7 @@ import { ConvexProviderWithClerk } from "convex/react-clerk";
 import { ConvexReactClient } from "convex/react";
 import { env } from "~/env";
 import { TRPCReactProvider } from "~/trpc/react";
+import React from "react";
 
 interface ClientProvidersProps {
   children: React.ReactNode;
